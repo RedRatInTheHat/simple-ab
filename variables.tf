@@ -43,6 +43,11 @@ variable "healthcheck_path" {
   description = "Path for the HTTP health check."
 }
 
+variable "healthcheck_host" {
+  type        = string
+  description = "'Host' HTTP header value."
+}
+
 variable "alb_router_name" {
   type        = string
   description = "The name of the ALB HTTP Router."

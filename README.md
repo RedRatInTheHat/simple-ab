@@ -34,6 +34,7 @@ No modules.
 | <a name="input_alb_load_balancer_name"></a> [alb\_load\_balancer\_name](#input\_alb\_load\_balancer\_name) | The name of the ALB Load Balancer. | `string` | n/a | yes |
 | <a name="input_alb_router_name"></a> [alb\_router\_name](#input\_alb\_router\_name) | The name of the ALB HTTP Router. | `string` | n/a | yes |
 | <a name="input_alb_virtual_host_name"></a> [alb\_virtual\_host\_name](#input\_alb\_virtual\_host\_name) | The name of the ALB Virtual Host. | `string` | n/a | yes |
+| <a name="input_healthcheck_host"></a> [healthcheck\_host](#input\_healthcheck\_host) | 'Host' HTTP header value. | `string` | n/a | yes |
 | <a name="input_healthcheck_interval"></a> [healthcheck\_interval](#input\_healthcheck\_interval) | Interval in seconds between health checks. | `string` | `"2s"` | no |
 | <a name="input_healthcheck_path"></a> [healthcheck\_path](#input\_healthcheck\_path) | Path for the HTTP health check. | `string` | `"/"` | no |
 | <a name="input_healthcheck_port"></a> [healthcheck\_port](#input\_healthcheck\_port) | Port for the health check. | `number` | `80` | no |
@@ -50,3 +51,4 @@ No modules.
 ## Outputs
 
 No outputs.
+
